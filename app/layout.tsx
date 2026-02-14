@@ -11,6 +11,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 export const metadata: Metadata = {
   title: "WINE BAR 紡 TSUMUGI｜池袋のワインバー",
   description:
@@ -20,25 +21,22 @@ export const metadata: Metadata = {
   },
 };
 
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-  <html lang="ja">
-    <head>
-      <meta
-        name="google-site-verification"
-        content="yBMU_qK0Z0Gm_upuZ"
-      />
-    </head>
-    <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-      {children}
-    </body>
-  </html>
-);
-
+    <html lang="ja">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="yBMU_qK0Z0Gm_upuZ"
+        />
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {children}
+      </body>
+    </html>
+  );
 }
