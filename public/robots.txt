@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://tsumugi-site.vercel.app/sitemap.xml
