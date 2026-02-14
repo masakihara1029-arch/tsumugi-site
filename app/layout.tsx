@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "池袋西口徒歩5分。赤白泡のグラスワインを常時10種類ご用意。火〜土 18:00〜1:00（日月定休）予約は電話またはInstagram DM。",
   verification: {
-    google: "yBMU_qK0Z0Gm_upuZ",
+    google: "yBMU_qK0Z0Gm_upuZnz6GzIq9B8hq44-oAOfHEr5oeQ",
   },
 };
 
@@ -31,7 +31,7 @@ export default function RootLayout({
       <head>
         <meta
           name="google-site-verification"
-          content="yBMU_qK0Z0Gm_upuZ"
+          content="yBMU_qK0Z0Gm_upuZnz6GzIq9B8hq44-oAOfHEr5oeQ"
         />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
